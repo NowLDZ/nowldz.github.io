@@ -30,12 +30,32 @@ module.exports = function(grunt) {
           }
         }
       }
-    }
+    },
+
+    clean: {
+      dist: ['dist']
+    },
+
+    copy: {
+      dist: {
+        files: [
+          {expand: true, src: ['img/**', 'css/**', '*.html'], dest: 'dist/'}
+        ]        
+      }
+    },
+
   });
 
   grunt.registerTask('server', ['connect:livereload', 'watch']);
+  grunt.registerTask('dist', ['clean:dist', 'copy:dist']);
 
-  grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-contrib-connect');
+  [
+    'grunt-contrib-watch', 
+    'grunt-contrib-connect', 
+    'grunt-contrib-copy', 
+    'grunt-contrib-clean'
+  ].forEach(function(module) {
+    grunt.loadNpmTasks(module);
+  });
 
 };
