@@ -44,16 +44,25 @@ module.exports = function(grunt) {
       }
     },
 
+    'gh-pages': {
+      options: {
+        base: 'dist'
+      },
+      src: ['**']
+    }    
+
   });
 
   grunt.registerTask('server', ['connect:livereload', 'watch']);
   grunt.registerTask('dist', ['clean:dist', 'copy:dist']);
+  grunt.registerTask('deploy', ['dist', 'gh-pages']);
 
   [
     'grunt-contrib-watch', 
     'grunt-contrib-connect', 
     'grunt-contrib-copy', 
-    'grunt-contrib-clean'
+    'grunt-contrib-clean', 
+    'grunt-gh-pages'
   ].forEach(function(module) {
     grunt.loadNpmTasks(module);
   });
