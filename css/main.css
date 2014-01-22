@@ -51,14 +51,16 @@ body {
 .social-links {
   list-style-type: none;
   padding: 0;
+  margin: 2.5em 0;
 }
 
 .social-links li {
   display: inline-block;
 }
 
-.social-icon {
+.social-links .social-icon {
   width: 3em;
+  margin: 0 0.3em;
 }
 
 /* Info sections (with texts) */
