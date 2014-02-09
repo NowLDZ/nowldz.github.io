@@ -30,20 +30,16 @@ body {
 
 /* Top section */
 
-.page-header h1 {
-  font-size: 6em;
-  line-height: 1;
-  margin-bottom: 0;
-  font-family: 'Oswald', sans-serif;
-  color: #FFDC00;
-}
-
 .page-header h3 {
   font-size: 1.8em;
   margin: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-weight: 500;
-  color: #FF4136;
+  color: #555;
+}
+
+.site-logo {
+  width: 50%;
 }
 
 /* Social icons horizontal list */
