@@ -1,6 +1,11 @@
 .header {
   margin: 0;
   display: flex;
+  padding-top: 100px;
+  @media (max-width: $screen-md) {
+    padding-top: 10vh;
+  }
+
   &-image {
     width: 33vw;
     padding-top: 5vh;
@@ -8,6 +13,7 @@
       padding: 0;
     }
   }
+
   &-description {
     width: 33vw;
     h1 {
@@ -28,7 +34,8 @@
 
     p {
       width: 33vw;
-      font-size: $font-size-basic -5px;
+      margin-bottom: 80px;
+      font-size: $font-size-basic - 5px;
       text-align: left;
       @media (max-width: $screen-md) {
         font-size: $font-size-basic*1/2;
@@ -59,11 +66,11 @@
         margin: 2%;
         color: $color-white;
 
-        padding: 1%;
+        padding: 4%;
         border-radius: 6px;
         box-shadow: none;
         box-sizing: none;
-        font-size: $font-size-basic - 7px;
+        font-size: $font-size-basic - 5px;
 
         @media (max-width: $screen-md) {
           font-size: $font-size-basic*1/2;

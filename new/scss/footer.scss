@@ -3,10 +3,12 @@ footer {
   display: flex;
   flex-direction: row;
   color: $color-white;
-  height: 40vh;
-  padding-top: 10vh;
+  min-height: 40vh;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
   .footer {
     &-logo {
+      padding: 5%;
       img {
         max-width: 25vw;
       }
@@ -18,6 +20,7 @@ footer {
       align-content: flex-start;
       width: 15vw;
       font-size: $font-size-basic - 8px;
+
       h6 {
         opacity: 0.5;
         font-weight: bold;

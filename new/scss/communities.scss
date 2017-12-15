@@ -9,6 +9,11 @@
     letter-spacing: 0.5px;
     text-align: left;
   }
+  input {
+    border: none;
+    margin: 10px;
+  }
+
   &-list {
     padding: 2vh;
     width: 50vw;
@@ -22,31 +27,35 @@
         color: $color-black;
         display: flex;
         flex-direction: row;
-        h3 {
-          font-size: $font-size-basic - 5px;
+        h4 {
+          font-size: $font-size-basic - 2px;
+          font-weight: bold;
         }
         span {
           padding-left: 1vw;
           .iconFacebook {
             color: $color-facebook;
+            margin: 5px;
           }
           .iconTwitter {
             color: $color-twitter;
+            margin: 5px;
           }
           .iconMeetup {
             color: $color-meetUp;
+            margin: 5px;
           }
         }
       }
 
       &-content {
-        font-size: $font-size-basic - 10px;
+        font-size: $font-size-basic - 4px;
         line-height: 1.5;
         text-align: left;
         color: $color-black;
       }
       &-footer {
-        font-size: $font-size-basic - 10px;
+        font-size: $font-size-basic - 4px;
         line-height: 1.5;
         text-align: left;
         color: $color-link;
@@ -59,8 +68,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-top: 1px solid $color-grey;
-    border-bottom: 1px solid $color-grey;
+    border-top: 1px solid #d1d1d1;
+    border-bottom: 1px solid #d1d1d1;
+    color: #4a4a4a;
+    cursor: pointer;
     margin: 1%;
     padding: 2vh;
   }

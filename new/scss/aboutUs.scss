@@ -14,13 +14,13 @@
       flex-direction: row;
       align-items: center;
       justify-content: center;
-      height: 3vh;
-      width: 10%;
       border-radius: 6px;
       border: solid 1px $color-grey;
-      font-size: $font-size-basic - 10px;
+      font-size: $font-size-basic - 4px;
       font-weight: bold;
       color: $color-grey;
+      padding: 10px;
+      margin: 2px;
       @media (max-width: $screen-md) {
         font-size: $font-size-basic - 12px;
       }
@@ -33,15 +33,15 @@
   &-photos {
     img {
       padding: 5vh;
-      max-width: 80vw;
+      max-width: 100vw;
     }
   }
 
   h3 {
-    font-size: $font-size-basic - 5px;
+    font-size: $font-size-basic - 4px;
     font-weight: bold;
     text-align: left;
-    color: $color-grey;
+    color: $color-contributors;
   }
 
   &-contributors {

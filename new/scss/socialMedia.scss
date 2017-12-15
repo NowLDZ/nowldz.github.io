@@ -14,9 +14,9 @@
     .item {
       display: flex;
       flex-direction: row;
-      width: 25vw;
-      height: 15vh;
-      border-radius: 4px;
+      min-height: 25vh;
+      min-width: 60vh;
+      border-radius: 8px;
       box-shadow: 1px -1px $color-grey;
       margin: 1%;
 
@@ -37,6 +37,7 @@
         width: 30%;
         font-size: 40px;
         color: $color-white;
+        background-size: cover;
 
         &--twitter {
           background-image: url('../images/rectangleTwitter.png');
@@ -49,9 +50,9 @@
 
       &-content {
         width: 80%;
-        font-size: $font-size-basic - 11px;
+        padding: 15px;
         h4 {
-          font-size: $font-size-basic;
+          font-size: $font-size-basic + 6px;
           font-weight: 300;
           text-align: left;
           display: flex;
@@ -60,11 +61,12 @@
         p {
           font-weight: bold;
           text-align: left;
+          font-size: $font-size-basic - 6px;
         }
         button {
           justify-content: center;
           align-items: flex-end;
-          font-size: $font-size-basic - 11px;
+          font-size: $font-size-basic - 6px;
 
           &.follow {
             background-color: $color-white;
