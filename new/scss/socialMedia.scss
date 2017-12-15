@@ -1,0 +1,90 @@
+.container {
+  position: relative;
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  .socialMedia {
+    position: absolute;
+    top: 5vh;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .item {
+      display: flex;
+      flex-direction: row;
+      width: 25vw;
+      height: 15vh;
+      border-radius: 4px;
+      box-shadow: 1px -1px $color-grey;
+      margin: 1%;
+
+      &--twitter {
+        background-color: $color-twitter;
+        color: $color-white;
+      }
+
+      &--facebook {
+        background-color: $color-white;
+        color: $color-grey;
+      }
+      &-logo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 30%;
+        font-size: 40px;
+        color: $color-white;
+
+        &--twitter {
+          background-image: url('../images/rectangleTwitter.png');
+        }
+
+        &--facebook {
+          background-image: url('../images/rectangle.png');
+        }
+      }
+
+      &-content {
+        width: 80%;
+        font-size: $font-size-basic - 11px;
+        h4 {
+          font-size: $font-size-basic;
+          font-weight: 300;
+          text-align: left;
+          display: flex;
+          align-items: center;
+        }
+        p {
+          font-weight: bold;
+          text-align: left;
+        }
+        button {
+          justify-content: center;
+          align-items: flex-end;
+          font-size: $font-size-basic - 11px;
+
+          &.follow {
+            background-color: $color-white;
+            color: $color-twitter;
+          }
+          &.like {
+            width: 20%;
+            background-color: $color-facebook;
+            color: $color-white;
+            margin: 1%;
+            padding: 1%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: $screen-md) {
+  .container {
+    display: none;
+  }
+}

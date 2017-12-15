@@ -1,0 +1,18 @@
+.navbar {
+  background: none;
+  box-shadow: none;
+  border: none;
+
+  &-links {
+    font-weight: 700;
+    color: $color-black !important;
+    &--facebook {
+      color: $color-facebook !important;
+      font-size: 25px;
+    }
+    &--twitter {
+      color: $color-twitter !important;
+      font-size: 25px;
+    }
+  }
+}

@@ -1,0 +1,222 @@
+<!Doctype>
+<html lang='en'>
+
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+
+  <script src="js/pace.min.js"></script>
+  <link href="css/pace.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://use.typekit.net/boj2lad.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+  <script src="js/communitiesList.js"></script>
+  <script src="js/navbar.js"></script>
+
+
+  <title>Now Lodz</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+          aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand" href="#"><img src="./images/logo.png" class="navbar-logo"></a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a target="about" class="navbar-links">about us</a></li>
+          <li><a target="communities" class="navbar-links">communities</a></li>
+          <li><a target="news" class="navbar-links">what's new</a></li>
+          <li><a href="map.html" class="navbar-links">map</a></li>
+          <li><a href="#"><i class="fab fa-facebook-square navbar-links navbar-links--facebook"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter-square navbar-links navbar-links--twitter"></i></a></li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+
+
+  <div class="main">
+    <div class="header">
+      <div class="header-image">
+        <img src="./images/body-left.png" class="header-image header-image--left">
+      </div>
+      <div class="header-description">
+        <h1>Unite tech/startup communities in Łódź</h1>
+
+        <p>
+          Follow #nowLDZ to stay up to date
+        </p>
+        <h3>What & why</h3>
+        <p>
+
+
+          There are amazing initiatives and ideas happening in Łódź around technology and startups these days. We would like create
+          common brand uniting all of them for better communication, cooperation and growth of this incredible community.
+          Brand that will be well-known and recognizable among technology passionates, startups and enterpreneurs world wide.
+        </p>
+        <h3>Get involved</h3>
+
+        <p>
+
+          To make all this happen we need your support. Whenever you organize or attend a tech/enterpreneur meetup in Łódź, boot-up
+          a startup or simply have great idea you want to build upon, let others know about it and don't forget to include
+          our flagship hashtag. Follow #nowLDZ on Twitter and Facebook to be always up to date.
+        </p>
+        <div class="header-description-socialmedia">
+          <button class="btn facebook"><i class="fab fa-facebook-square"></i> Like out fanpage</button>
+          <button class="btn twitter"><i class="fab fa-twitter-square"></i> Folow us on Twitter</button>
+        </div>
+      </div>
+      <div class="header-image">
+
+        <img src="./images/body-right.png" class="header-image header-image--right">
+      </div>
+    </div>
+    <hr/>
+    <div class="aboutUs" id="about">
+      <div class="aboutUs-socialMedia">
+        <span><i class="fab fa-twitter"></i> 1342 Tweets</span>
+        <span><i class="fas fa-user-plus"></i> 168 Followers</span>
+        <span><i class="far fa-calendar-check"></i> +50 Events</span>
+        <span><i class="fas fa-briefcase"></i> 30 Contributors</span>
+      </div>
+
+      <div class="aboutUs-photos">
+        <img src="./images/stream.png">
+      </div>
+
+      <h3>
+        Contributors
+      </h3>
+      <div class="aboutUs-contributors">
+        <img src="./images/placeholder-5.png">
+        <img src="./images/placeholder-3.png">
+        <img src="./images/placeholder-4.png">
+        <img src="./images/placeholder-2.png">
+        <img src="./images/placeholder-1.png">
+      </div>
+    </div>
+    <hr/>
+    <div class="communities" id="communities">
+      <h3>Communities</h3>
+      <div class="communities-input">
+        <span class="glyphicon glyphicon-search" aria-hidden="true"></span><input type="text" onkeyup="filter()" id="filterPhraseInput"></div>
+      <div class="communities-list">
+      </div>
+      <div class="communities-seeMore">
+        See More
+      </div>
+
+    </div>
+
+
+  </div>
+
+  <div class="container">
+    <div class="socialMedia">
+      <div class="item item--twitter">
+        <div class="item-logo item-logo--twitter">
+          <i class="fab fa-twitter"></i>
+        </div>
+        <div class="item-content">
+          <h4>Stay Up to date</h4>
+          <p>Join IT & Startup community growing in Łódź</p>
+          <button class="btn follow"> <i class="fab fa-twitter"></i> Follow @NowLDZcom</button> 168 followers
+        </div>
+      </div>
+
+      <div class="item item--facebook">
+        <div class="item-logo item-logo--facebook">
+          <i class="fab fa-facebook-f"></i>
+        </div>
+        <div class="item-content">
+          <h4>Stay Up to date</h4>
+          <p>Join IT & Startup community growing in Łódź</p>
+          <button class="btn like"><i class="fab fa-facebook-square"></i> Like</button>
+          <button class="btn like">Share</button> 365 people likes this
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-logo">
+      <img src="./images/logo-wht.png">
+    </div>
+    <div class="footer-column">
+      <h6>
+        site map
+      </h6>
+      <a href="#">Home</a>
+      <a href="#">aboutUs</a>
+      <a href="#"> communities</a> ____
+      <a href="#">what's new </a>
+      <a href="#">Map</a>
+    </div>
+    <div class="footer-column">
+      <h6>
+        created by
+      </h6>
+      <a href="#">Binarapps</a>
+    </div>
+    <div class="footer-column">
+      <h6>
+        partners
+      </h6>
+      <a href="#">Binarapps</a>
+      <a href="#">Binarapps</a>
+      <a href="#">Binarapps</a>
+      <a href="#">Binarapps</a>
+      <a href="#">Binarapps</a>
+    </div>
+    <div class="footer-column">
+      <a href="#">Binarapps</a>
+      <a href="#">Binarapps</a>
+      <a href="#">Binarapps</a>
+      <a href="#">Binarapps</a>
+      <a href="#">Binarapps</a>
+      <a href="#">Binarapps</a>
+    </div>
+    <div class="footer-column">
+      <a href="#">Binarapps</a>
+      <a href="#">Binarapps</a>
+      <a href="#">Binarapps</a>
+      <a href="#">Binarapps</a>
+      <a href="#">Binarapps</a>
+      <a href="#">Binarapps</a>
+    </div>
+  </footer>
+
+
+
+
+</body>
+
+</html>

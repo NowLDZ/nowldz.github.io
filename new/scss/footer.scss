@@ -1,0 +1,48 @@
+footer {
+  background-color: $color-black;
+  display: flex;
+  flex-direction: row;
+  color: $color-white;
+  height: 40vh;
+  padding-top: 10vh;
+  .footer {
+    &-logo {
+      img {
+        max-width: 25vw;
+      }
+    }
+    &-column {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: flex-start;
+      width: 15vw;
+      font-size: $font-size-basic - 8px;
+      h6 {
+        opacity: 0.5;
+        font-weight: bold;
+        text-align: left;
+        color: $color-white;
+        font-size: $font-size-basic - 8px;
+      }
+
+      a {
+        font-weight: bold;
+        text-align: left;
+        color: $color-white;
+        font-size: $font-size-basic - 8px;
+      }
+    }
+  }
+}
+
+@media (max-width: $screen-xs) {
+  footer {
+    .footer-column {
+      h6,
+      a {
+        font-size: $font-size-basic - 12px;
+      }
+    }
+  }
+}

@@ -1,0 +1,85 @@
+.header {
+  margin: 0;
+  display: flex;
+  &-image {
+    width: 33vw;
+    padding-top: 5vh;
+    &--right {
+      padding: 0;
+    }
+  }
+  &-description {
+    width: 33vw;
+    h1 {
+      font-size: $font-size-title;
+      font-weight: bold;
+      text-align: left;
+      @media (max-width: $screen-md) {
+        font-size: $font-size-title*1/2;
+      }
+
+      @media (max-width: $screen-sm) {
+        font-size: $font-size-title*2/5;
+      }
+      @media (max-width: $screen-xs) {
+        font-size: $font-size-title*1/3;
+      }
+    }
+
+    p {
+      width: 33vw;
+      font-size: $font-size-basic -5px;
+      text-align: left;
+      @media (max-width: $screen-md) {
+        font-size: $font-size-basic*1/2;
+      }
+
+      @media (max-width: $screen-xs) {
+        font-size: $font-size-basic*2/5;
+      }
+    }
+
+    h3 {
+      @media (max-width: $screen-md) {
+        font-size: $font-size-title*1/2 - 3px;
+      }
+
+      @media (max-width: $screen-sm) {
+        font-size: $font-size-title*2/5 - 3px;
+      }
+      @media (max-width: $screen-xs) {
+        font-size: $font-size-title*1/3 - 3px;
+      }
+    }
+
+    &-socialmedia {
+      display: flex;
+      justify-content: center;
+      button {
+        margin: 2%;
+        color: $color-white;
+
+        padding: 1%;
+        border-radius: 6px;
+        box-shadow: none;
+        box-sizing: none;
+        font-size: $font-size-basic - 7px;
+
+        @media (max-width: $screen-md) {
+          font-size: $font-size-basic*1/2;
+        }
+
+        @media (max-width: $screen-xs) {
+          font-size: $font-size-basic*2/5;
+        }
+
+        &.facebook {
+          background-color: $color-facebook;
+        }
+        &.twitter {
+          background-color: $color-twitter;
+        }
+      }
+    }
+  }
+}
