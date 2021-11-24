@@ -1,6 +1,6 @@
-const isProd = process.env.NODE_ENV === 'production'
-
 module.exports = {
-  // Use the CDN in production and localhost for development.
-  assetPrefix: isProd ? 'https://cdn.statically.io/gh/AnnaSzkupBinarApps/nowldz.github.io/gh-pages/' : '',
-}
+  env: {
+    PUBLIC_URL: 'https://nowldz.github.io',
+    assetPrefix: './',
+  },
+};
