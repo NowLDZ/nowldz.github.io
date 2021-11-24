@@ -1,5 +1,5 @@
 {
-  "homepage": "http://nowldz.github.io/",
+  "homepage": "http://nowldz.com/",
   "private": true,
   "scripts": {
     "lint": "next lint",
