@@ -1,17 +1,30 @@
 {
-  "name": "nowldz",
-  "version": "0.0.1",
-  "author": {
-    "name": "Michał Ostruszka",
-    "email": "michal.ostruszka@gmail.com"
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fontsource/poppins": "^4.5.0",
+    "@headlessui/react": "^1.4.1",
+    "@heroicons/react": "^1.0.4",
+    "clsx": "^1.1.1",
+    "next": "latest",
+    "prettier-plugin-tailwind": "^2.2.12",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-iframe": "^1.8.0",
+    "react-router-dom": "^6.0.0-beta.5",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
-    "grunt": "~0.4.2",
-    "grunt-contrib-watch": "~0.5.3",
-    "grunt-contrib-connect": "~0.6.0",
-    "grunt-contrib-clean": "~0.5.0",
-    "grunt-contrib-copy": "~0.5.0",
-    "connect-livereload": "~0.3.2",
-    "grunt-gh-pages": "~0.9.0"
+    "autoprefixer": "^10.2.6",
+    "eslint": "^7.27.0",
+    "eslint-plugin-react": "^7.26.1",
+    "postcss": "^8.3.5",
+    "prettier": "2.4.1",
+    "tailwindcss": "^2.2.16"
   }
 }
