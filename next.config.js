@@ -1,6 +1,6 @@
 module.exports = {
   env: {
-    PUBLIC_URL: 'https://nowldz.github.io',
+    PUBLIC_URL: 'http://nowldz.github.io/',
     assetPrefix: './',
   },
 };
