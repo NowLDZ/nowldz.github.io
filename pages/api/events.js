@@ -1,6 +1,6 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 
-const events = [
+export const events = [
   {
     name: 'Ruby on Rails',
     id: 'ruby_on_rails',

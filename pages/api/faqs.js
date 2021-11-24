@@ -1,4 +1,4 @@
-const faqs = [
+export const faqs = [
   {
     title: 'Lorem ipsum dolor sit amet, consectetur adipiscing?',
     description:
