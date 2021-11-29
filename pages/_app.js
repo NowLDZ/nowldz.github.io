@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <div className="flex flex-col h-screen">
       <Navbar />
-      <div className="flex-grow bg-background">
+      <div className="flex-grow bg-white">
         <Component {...pageProps} />
       </div>
       <Footer />
