@@ -6,19 +6,20 @@ export function MainHeader() {
           <div className="flex justify-center">
             <div>
               <p className="mt-1 text-black text-4xl font-bold sm:text-5xl sm:tracking-tight lg:text-7xl">
-                Main
+                {/*&#x23;now" */}
+                {/*teraz */}
+                &#x23;nowLDZ - &nbsp;
               </p>
             </div>
             <div>
               <p className="mt-1 text-transparent text-4xl font-bold bg-gradient-to-r bg-clip-text from-orangeLight to-orange sm:text-5xl sm:tracking-tight lg:text-7xl">
-                header
+                {/*LDZ*/}
+                Łódź w sieci
               </p>
             </div>
           </div>
           <p className="text-base-light text-black_alpha_70 mt-5 mx-auto max-w-lg text-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel
-            quam non nulla malesuada ultricies. Donec lobortis urna quis velit
-            tempor, at tempor dui sagittis. Vivamus laoreet, risus.
+            Pierwsze miejsce w internecie gdzie dowiesz się kto w Łodzi działa w IT, gdzie szukać wsparcia w rozwoju twojego projektu oraz gdzie i kiedy odbywają się najlepsze meetupy technologiczne w naszym mieście.
           </p>
         </div>
       </div>

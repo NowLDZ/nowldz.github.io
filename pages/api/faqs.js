@@ -1,33 +1,28 @@
 export const faqs = [
   {
-    title: 'Lorem ipsum dolor sit amet, consectetur adipiscing?',
+    title: 'O co chodzi w tym hashtag\'u?',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.',
+      'Hashtag #nowLDZ jest otwartą platformą (każdy może nim oznaczyć swoją aktywność w Social Mediach) służącą promocji i integracji łódzkiego środowiska związanego IT. Jest też bazą rozwojowych eventów i firm o łódzkim rodowodzie.',
   },
   {
-    title: 'Lorem ipsum dolor?',
+    title: 'Chcę dodać firmę / wydarzenie - jak to zrobić?',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.',
+      'Napisz do nas na contact@nowlodz.com. Zawrzyj tytuł / nazwę, opis, terminy i odpowiednie linki i zdjęcia.',
   },
   {
-    title: 'Consectetur adipiscing?',
+    title: 'Widzę niaktualne informacje, gdzie je zgłosić?',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.',
+      'Daj nam znać mailem na contact@nowlodz.com',
   },
   {
-    title: 'Lorem ipsum?',
+    title: 'Jak mogę pomóc aby rozwijać inicjatywę #nowLDZ?',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.',
+      'Potrzebujemy wsparcia zarówno w rozbudowie bazy eventów i firm jak przy działaniach na naszych kanałach Social Media. Napisz do nas maila, odezwij się na Facebook\'u lub wpadnij na OpenCoffe.',
   },
   {
-    title: 'Dolor sit amet?',
+    title: 'Czy jest to oficjalna strona miasta?',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.',
-  },
-  {
-    title: 'Consectetur?',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.',
+      'Nie, jest to oddolna inicjatywa łodzian z lokalnych środowisk IT którzy chcą dołożyc swoją cegiełkę do rozwoju naszego miasta.',
   },
 ];
 

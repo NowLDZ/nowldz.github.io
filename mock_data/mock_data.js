@@ -28,7 +28,7 @@ export const eventsCategories = [
 export const organizations = [
   {
     name: 'Software house',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ',
+    description: 'Znajdź partnera dla twojego nowego projektu lub znajdź zespół w którym rozwiniesz skrzydła. ',
     img: '/assets/organizationImage1.svg',
     href: '#',
   },

@@ -21,10 +21,6 @@ const navigation = [
     name: 'Regulamin',
     href: '#',
   },
-  {
-    name: 'Coś tutaj jeszcze',
-    href: '#',
-  },
 ];
 
 export function Footer() {
