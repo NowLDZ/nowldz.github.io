@@ -1,3 +1,9 @@
+To start app locally:
+
+1. Install dependencies (only before app initialization): 'yarn install'
+2. Type 'yarn next dev'
+3. App starts on http://localhost:3000/
+
 To deploy app:
 
 1. Push changes to master
