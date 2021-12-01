@@ -3,7 +3,7 @@ export function MainHeader() {
     <div className="relative bg-transparent">
       <div className="mx-auto px-4 py-16 max-w-7xl sm:px-6 sm:py-24 lg:px-8">
         <div className="text-center">
-          <div className="flex justify-center">
+          <div className="justify-center sm:flex">
             <div>
               <p className="mt-1 text-black text-4xl font-bold sm:text-5xl sm:tracking-tight lg:text-7xl">
                 {/*&#x23;now" */}
@@ -18,8 +18,11 @@ export function MainHeader() {
               </p>
             </div>
           </div>
-          <p className="text-base-light text-black_alpha_70 mt-5 mx-auto max-w-lg text-center">
-            Pierwsze miejsce w internecie gdzie dowiesz się kto w Łodzi działa w IT, gdzie szukać wsparcia w rozwoju twojego projektu oraz gdzie i kiedy odbywają się najlepsze meetupy technologiczne w naszym mieście.
+          <p className="text-base-light mt-5 mx-auto max-w-lg text-center text-black_alpha_70">
+            Pierwsze miejsce w internecie gdzie dowiesz się kto w Łodzi działa w
+            IT, gdzie szukać wsparcia w rozwoju twojego projektu oraz gdzie i
+            kiedy odbywają się najlepsze meetupy technologiczne w naszym
+            mieście.
           </p>
         </div>
       </div>

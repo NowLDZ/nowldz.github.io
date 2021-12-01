@@ -6,6 +6,7 @@ import { useGetMethod } from '@/hooks/network/useGetMethod';
 import { NavbarLink } from '@/components/Navbar/NavbarLink';
 import { MobileNavbarLink } from '@/components/Navbar/MobileNavbarLink';
 import { useRouter } from 'next/router';
+import { AccordionNavItem } from './AccordionNavItem';
 
 export function MobileDrawer(props) {
   const router = useRouter();
@@ -45,45 +46,45 @@ export function MobileDrawer(props) {
               </div>
               <div className="mt-6">
                 <nav className="grid gap-y-8">
-                  {organizations.map(item => (
-                    <MobileNavbarLink
-                      key={item.name}
-                      href={item.href}
-                      clickHandler={() => {
-                        router
-                          .push(`/organization/${encodeURIComponent(item.id)}`)
-                          .then(props.closeMenu);
-                      }}>
-                      <span className="ml-3 text-gray-900 text-base font-medium">
+                  <AccordionNavItem title="Organizacje">
+                    {organizations.map(item => (
+                      <MobileNavbarLink
+                        key={item.name}
+                        href={item.href}
+                        clickHandler={() => {
+                          router
+                            .push(
+                              `/organization/${encodeURIComponent(item.id)}`,
+                            )
+                            .then(props.closeMenu);
+                        }}>
                         {item.name}
-                      </span>
-                    </MobileNavbarLink>
-                  ))}
-                </nav>
-              </div>
-            </div>
-            <div className="px-5 py-6 space-y-6">
-              <div className="grid gap-x-8 gap-y-4 grid-cols-2">
-                {/*Temporary hidden until feature/facebook-feed is complete  */}
-                {/* <div
+                      </MobileNavbarLink>
+                    ))}
+                  </AccordionNavItem>
+                  <AccordionNavItem title="Wydarzenia cykliczne">
+                    {events.map(item => (
+                      <MobileNavbarLink
+                        key={item.name}
+                        href={item.href}
+                        clickHandler={() => {
+                          router
+                            .push(`/events/${encodeURIComponent(item.id)}`)
+                            .then(props.closeMenu);
+                        }}>
+                        {item.name}
+                      </MobileNavbarLink>
+                    ))}
+                  </AccordionNavItem>
+                  {/*Temporary hidden until feature/facebook-feed is complete  */}
+                  {/* <div
                   onClick={() => scrollTo('facebook_feed')}
                   className="text-gray-500 hover:text-gray-900 text-base font-medium">
                   #nowLDZ
                 </div> */}
-                <NavbarLink hashId="faq">FAQ</NavbarLink>
-                <NavbarLink hashId="partners">Partnerzy</NavbarLink>
-                {events.map(item => (
-                  <MobileNavbarLink
-                    key={item.name}
-                    href={item.href}
-                    clickHandler={() => {
-                      router
-                        .push(`/events/${encodeURIComponent(item.id)}`)
-                        .then(props.closeMenu);
-                    }}>
-                    {item.name}
-                  </MobileNavbarLink>
-                ))}
+                  <NavbarLink hashId="faq">FAQ</NavbarLink>
+                  <NavbarLink hashId="partners">Partnerzy</NavbarLink>
+                </nav>
               </div>
             </div>
           </div>
