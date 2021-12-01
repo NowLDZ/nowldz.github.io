@@ -29,7 +29,6 @@ export function Event({ events, name, singleEvent }) {
   const navigateToEvent = () => {
     const eventName = singleEvent?.name || events[currentIndex]?.name;
     const URI = encodeURI(getUserFriendlyURI(eventName));
-    console.warn(URI);
     router.push(`/event/${URI}`);
   };
 

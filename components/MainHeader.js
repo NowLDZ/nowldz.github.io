@@ -26,7 +26,7 @@ export function MainHeader() {
           </p>
         </div>
       </div>
-      <div className="absolute top-64 flex justify-between mx-auto w-screen sm:top-44">
+      <div className="absolute top-80 flex justify-between mx-auto w-screen sm:top-44 sm:top-64">
         <div>
           <img src="/assets/image1.svg" alt="#" className="h-200 block" />
         </div>

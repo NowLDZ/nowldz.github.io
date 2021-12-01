@@ -13,8 +13,6 @@ function Events() {
     event => getUserFriendlyURI(event.name) === id,
   );
 
-  console.warn(id, events);
-
   const { filteredData: filteredEvents, searchBar } = useSearch({
     data: chosenEventType?.events,
     filterBy: 'name',
