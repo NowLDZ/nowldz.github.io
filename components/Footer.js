@@ -1,3 +1,5 @@
+import { useRouter } from 'next/router';
+
 /* This example requires Tailwind CSS v2.0+ */
 const socials = [
   {
@@ -15,15 +17,21 @@ const socials = [
 const navigation = [
   {
     name: 'Polityka prywatności',
-    href: '#',
+    pathname: '/privacy-policy',
   },
   {
     name: 'Regulamin',
-    href: '#',
+    pathname: '/statute',
+  },
+  {
+    name: 'O nas',
+    pathname: '/about-us',
   },
 ];
 
 export function Footer() {
+  const router = useRouter();
+
   return (
     <>
       <footer className="relative">
@@ -48,8 +56,14 @@ export function Footer() {
             </div>
             <div className="flex flex-col items-center md:flex-row md:order-3 md:space-x-6">
               {navigation.map(item => (
-                <a key={item.name} href={item.href}>
-                  <span className="hover:text-gray-500 text-white text-sm font-semibold">
+                <a
+                  key={item.name}
+                  onClick={() => {
+                    router.push({
+                      pathname: item.pathname,
+                    });
+                  }}>
+                  <span className="hover:text-gray-500 text-white text-sm font-semibold cursor-pointer">
                     {item.name}
                   </span>
                 </a>
