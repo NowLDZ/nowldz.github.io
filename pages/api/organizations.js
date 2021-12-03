@@ -17,31 +17,40 @@ export const organizations = [
         url: 'https://binarapps.com',
       },
       {
-        logoUrl: '/assets/binar_logo.svg',
+        logoUrl: '/assets/org/hycom.png',
         name: 'HyCom',
         id: 'cfa42996-0851-44e3-9586-9a6572638cba',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel quam non nulla malesuada ultricies. Donec lobortis urna quis velit. ',
+          'Say hy to digital transformation! Find your partners in designing, developing and maintaining digital products and services. See our offer!',
         address: 'Grzegorza Piramowicza 11/13',
         url: 'https://hycom.digital',
       },
       {
-        logoUrl: '/assets/binar_logo.svg',
+        logoUrl: '/assets/org/inwedo.png',
         name: 'Inwedo',
         id: '2660c03c-eda4-48f9-8cd6-5e622df72f4e',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel quam non nulla malesuada ultricies. Donec lobortis urna quis velit. ',
+          'We think business and create software solutions that help you achieve more. ',
         address: 'Polskiej Organizacji Wojskowej 25',
         url: 'https://inwedo.com',
       },
       {
-        logoUrl: '/assets/binar_logo.svg',
+        logoUrl: '/assets/org/bluerank.png',
         name: 'Bluerank',
         id: '2660c03c-eda4-48f9-8cd6-5e622df72f4e',
         description:
           'Agencja marketingu internetowego. Planujemy strategicznie. Realizujemy skuteczne kampanie. Wygrywamy i rozwijamy Twój biznes.',
         address: 'Polskiej Organizacji Wojskowej 25',
         url: 'https://bluerank.pl',
+      },
+      {
+        logoUrl: '/assets/org/osomstudio.png',
+        name: 'Osomstudio',
+        id: '2660c13c-eda4-48f9-8cd6-5e622df72f4e',
+        description:
+          'An experienced team of WordPress &amp; WooCommerce experts at your service. We build bespoke solutions for companies from the tech sector.',
+        address: 'ul. Wólczańska 143',
+        url: 'https://osomstudio.com',
       },
     ],
   },
@@ -52,11 +61,11 @@ export const organizations = [
     id: 'startup',
     companies: [
       {
-        logoUrl: '/assets/binar_logo.svg',
+        logoUrl: '/assets/org/listonic.png',
         id: '94c82177-331c-4302-90b9-011eb8a06d7b',
         name: 'Listonic',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel quam non nulla malesuada ultricies. Donec lobortis urna quis velit. ',
+          'Lista zakupów nr 1 w Polsce. Z Listonic oszczędzisz czas i pieniądze, a Twoje zakupy staną się prostsze.',
         address: 'Piotrkowska 99',
         url: 'https://listonic.com',
       },
@@ -69,7 +78,7 @@ export const organizations = [
     id: 'organizacja_wsparcia',
     companies: [
       {
-        logoUrl: '/assets/binar_logo.svg',
+        logoUrl: '/assets/org/none.png',
         name: '...',
         id: '94c82177-331c-4302-90b9-011eb8a06d7b',
         description:
@@ -86,7 +95,7 @@ export const organizations = [
     id: 'venture_capital',
     companies: [
       {
-        logoUrl: '/assets/binar_logo.svg',
+        logoUrl: '/assets/org/none.png',
         name: '...',
         id: '94c82177-331c-4302-90b9-011eb8a06d7b',
         description:
@@ -103,7 +112,7 @@ export const organizations = [
     id: 'akcelerator',
     companies: [
       {
-        logoUrl: '/assets/binar_logo.svg',
+        logoUrl: '/assets/org/none.png',
         name: '...',
         id: '94c82177-331c-4302-90b9-011eb8a06d7b',
         description:
@@ -120,7 +129,7 @@ export const organizations = [
     id: 'cos_dodatkowego',
     companies: [
       {
-        logoUrl: '/assets/binar_logo.svg',
+        logoUrl: '/assets/org/none.png',
         name: '...',
         id: '94c82177-331c-4302-90b9-011eb8a06d7b',
         description:

@@ -7,7 +7,7 @@ export const faqs = [
   {
     title: 'Chcę dodać firmę / wydarzenie - jak to zrobić?',
     description:
-      'Napisz do nas na contact@nowlodz.com. Zawrzyj tytuł / nazwę, opis, terminy i odpowiednie linki i zdjęcia.',
+      'Napisz do nas na contact@nowlodz.com. Jeśli to firma, podaj nazwę, opis, logo 220x220px, link i adres. Jeśli to wydarzenie, podaj tytuł / nazwę, logo, opis, terminy link oraz trzy zdjęcia.',
   },
   {
     title: 'Widzę niaktualne informacje, gdzie je zgłosić?',

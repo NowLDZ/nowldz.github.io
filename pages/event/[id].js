@@ -81,7 +81,6 @@ function Event() {
           />
         )}
       </div>
-      <OrganizationTypeListItem isInEventPage {...organizer} />
       <h2 className="self-start mt-24 text-black text-5xl font-bold tracking-tight md:text-6xl">
         Inne eventy{' '}
         <span className="text-transparent bg-gradient-to-r bg-clip-text from-orangeLight to-orange">

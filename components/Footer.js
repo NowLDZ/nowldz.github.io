@@ -2,12 +2,12 @@
 const socials = [
   {
     name: 'Facebook',
-    href: '#',
+    href: 'http://facebook.com/nowldz',
     icon: () => <img src="/assets/facebook_footer.svg" alt="logo white" />,
   },
   {
     name: 'Twitter',
-    href: '#',
+    href: 'https://twitter.com/NowLDZcom',
     icon: () => <img src="/assets/twitter_footer.svg" alt="logo white" />,
   },
 ];

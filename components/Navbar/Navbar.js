@@ -36,7 +36,7 @@ export function Navbar() {
             </Popover.Group>
             <div className="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
               <a
-                href="#"
+                href="http://facebook.com/nowldz"
                 className="mr-2 text-gray-500 whitespace-nowrap text-base font-medium">
                 <img
                   src="/assets/facebook.svg"
@@ -45,7 +45,7 @@ export function Navbar() {
                 />
               </a>
               <a
-                href="#"
+                href="https://twitter.com/NowLDZcom"
                 className="text-gray-500 hover:text-gray-900 whitespace-nowrap text-base font-medium">
                 <img
                   src="/assets/twitter.svg"
