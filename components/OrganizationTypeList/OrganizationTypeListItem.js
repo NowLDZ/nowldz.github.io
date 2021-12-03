@@ -31,6 +31,12 @@ export function OrganizationTypeListItem({
       <div className="flex items-center justify-center">
         <a
           href={url}
+          onClick={() =>
+            window.dataLayer.push({
+              event: 'organizationSeeMore',
+              category: name,
+            })
+          }
           className="block my-4 px-8 py-4 whitespace-nowrap bg-orange_alpha_15 rounded-full md:my-0">
           <span className="text-orange text-lg font-bold">Zobacz więcej</span>
         </a>

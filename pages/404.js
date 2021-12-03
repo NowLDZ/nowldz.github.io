@@ -5,11 +5,8 @@ export default function Custom404() {
   const router = useRouter();
 
   useEffect(() => {
-    if (router.asPath === '/404') {
-      return;
-    }
-    router.replace(router.asPath);
-  });
+    router.replace('/');
+  }, []);
 
   return null;
 }

@@ -1,9 +1,11 @@
 import { Disclosure, Transition } from '@headlessui/react';
-import { ChevronUpIcon } from '@heroicons/react/solid';
 
-export function AccordionItem({ title, description }) {
+export function AccordionItem({ title, description, dataID }) {
+  const dataLayerUpdate = () => {
+    window.dataLayer.push({ event: 'faqClick' });
+  };
   return (
-    <Disclosure as="div">
+    <Disclosure onClick={dataLayerUpdate} as="div">
       {({ open }) => (
         <>
           <Disclosure.Button className="group flex items-center justify-between px-4 py-6 w-full text-left text-black text-sm font-medium bg-transparent focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
