@@ -28,6 +28,7 @@ export function Event({ events, name, singleEvent }) {
 
   const navigateToEvent = () => {
     const eventName = singleEvent?.name || events[currentIndex]?.name;
+    window.dataLayer.push({ event: 'eventPageClick', category: eventName });
     const URI = encodeURI(getUserFriendlyURI(eventName));
     router.push(`/event/${URI}`);
   };

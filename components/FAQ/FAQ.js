@@ -3,9 +3,6 @@ import { useGetMethod } from '@/hooks/network/useGetMethod';
 
 export function FAQ() {
   const { data: faqs } = useGetMethod('faqs');
-  faqs.forEach((entry, id) => {
-    entry.dataID = `faq-button-id-${id}`;
-  });
 
   return (
     <div

@@ -98,11 +98,15 @@ function Event() {
               alt="zdjęcie eventu"
             />
             <div
-              onClick={() =>
+              onClick={() => {
+                window.dataLayer.push({
+                  event: 'eventPageClick',
+                  category: eventName,
+                });
                 router.push(
                   `/event/${encodeURI(getUserFriendlyURI(event.name))}`,
-                )
-              }
+                );
+              }}
               className="flex items-center mt-3">
               <span className="mx-4 hover:text-orange text-3xl font-bold cursor-pointer">
                 {event.name}
