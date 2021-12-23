@@ -69,6 +69,15 @@ export const organizations = [
         address: 'Piotrkowska 99',
         url: 'https://listonic.com',
       },
+      {
+        logoUrl: '/assets/org/codeally.png',
+        id: '94c82716-331c-4302-90b9-011eb8a06d7b',
+        name: 'CodeAlly',
+        description:
+          'CodeAlly oferuje matchmaking społeczności sprawdzonych, początkujących programistów z firmami.',
+        address: 'al. Kościuszki 39, 90-418 Łódź',
+        url: 'https://codeally.io',
+      },
     ],
   },
   {
@@ -78,13 +87,31 @@ export const organizations = [
     id: 'organizacja_wsparcia',
     companies: [
       {
-        logoUrl: '/assets/org/none.png',
-        name: '...',
-        id: '94c82177-331c-4302-90b9-011eb8a06d7b',
+        logoUrl: '/assets/org/taxteam.png',
+        name: 'TaxTeam',
+        id: '94c82177-331c-4302-90b9-011eb8a0217b',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel quam non nulla malesuada ultricies. Donec lobortis urna quis velit. ',
-        address: '...',
-        url: '...',
+          'Taxteam Centrum Księgowe - czynimy Twój biznes łatwiejszym. ',
+        address: 'al. Kościuszki 39, 90-418 Łódź',
+        url: 'http://www.taxteam.pl',
+      },
+      {
+        logoUrl: '/assets/org/unilex.jpg',
+        name: 'Uni-Lex',
+        id: '94c82177-097c-4302-90b9-011eb8a06d7b',
+        description:
+          'Grupa Uni-Lex zapewnia pakiet usług księgowych, prawnych, kadrowo-płacowych, doradztwa podatkowego oraz tłumaczeń przysięgłych. Wszechstronna obsługa firm produkcyjnych oraz rodzinnych.',
+        address: 'ul. Żurawia 7/9, 91-455 Łódź',
+        url: 'https://unilexgrupa.pl/pl',
+      },
+      {
+        logoUrl: '/assets/org/jaskulowska.png',
+        name: 'Adwokat Marta Jaskułowska - Kancelaria Adwokacka',
+        id: '94382177-127c-4302-90b9-011eb8a06d7b',
+        description:
+          'Zespół pięciu prawników specjalizuje się w obsłudze prawnej biznesu oraz branży nieruchomości.',
+        address: 'Bazylijska 39L, 95-100 Zgierz',
+        url: 'https://adwokat.jaskulowska.pl',
       },
     ],
   },
