@@ -1,4 +1,4 @@
-name: Triggering build
+name: triggering-build
 on:
   push:
     branches:
