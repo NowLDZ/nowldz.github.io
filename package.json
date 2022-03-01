@@ -1,5 +1,5 @@
 {
-  "homepage": "http://nowldz.com/",
+  "homepage": "https://nowldz.com/",
   "private": true,
   "scripts": {
     "lint": "next lint",
